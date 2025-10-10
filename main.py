@@ -15,6 +15,9 @@ def bagi(x,y):
     else:
         return x / y
     
+def pangkat(x,y):
+    return x ** y
+
 while True:
     print("=== Kalkulator Sederhana ===")
     print("Pilih Operasi:")
@@ -22,15 +25,16 @@ while True:
     print("2. Pengurangan")
     print("3. Perkalian")
     print("4. Pembagian")
-    print("5. Keluar")
+    print("5. Perpangkatan")
+    print("6. Keluar")
 
-    pilihan = input("Masukan pilihan (1/2/3/4/5): ")
+    pilihan = input("Masukan pilihan (1/2/3/4/5/6): ")
     
-    if pilihan == '5':
+    if pilihan == '6':
         print("Terima kasih telah menggunakan kalkulator.")
         break
     
-    if pilihan not in ['1', '2', '3', '4']:
+    if pilihan not in ['1', '2', '3', '4', '5']:
         print("Pilihan tidak valid, Silakan coba lagi.")
         continue
 
@@ -45,5 +49,7 @@ while True:
         print(f"Hasil: {angka1} * {angka2} = {kali(angka1, angka2)}")
     elif pilihan == '4':
         print(f"Hasil: {angka1} / {angka2} = {bagi(angka1, angka2)}")
+    elif pilihan == '5':
+        print(f"Hasil: {angka1} ^ {angka2} = {pangkat(angka1, angka2)}")
     else:
         print("Pilihan tidak tidak tersedia, silahkan coba lagi")
