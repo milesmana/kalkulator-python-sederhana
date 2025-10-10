@@ -1,16 +1,21 @@
 # 🧮 Kalkulator Python Sederhana
 
-Program kalkulator sederhana berbasis **Python** yang dapat melakukan operasi matematika dasar seperti **penjumlahan**, **pengurangan**, **perkalian**, dan **pembagian**.  
-Proyek ini dibuat untuk latihan dasar pemrograman menggunakan bahasa Python dan Git.
+Program **kalkulator sederhana berbasis Python** yang dapat melakukan operasi matematika dasar seperti:
+- Penjumlahan
+- Pengurangan
+- Perkalian
+- Pembagian  
+
+Proyek ini dibuat sebagai latihan dasar pemrograman menggunakan **Python** dan **Git**.
 
 ---
 
 ## ✨ Fitur
-- ✅ Penjumlahan dua angka  
-- ✅ Pengurangan dua angka  
-- ✅ Perkalian dua angka  
-- ✅ Pembagian dengan pengecekan pembagi nol  
-- ✅ Validasi input agar tidak terjadi error  
+✅ Penjumlahan dua angka  
+✅ Pengurangan dua angka  
+✅ Perkalian dua angka  
+✅ Pembagian dengan pengecekan pembagi nol  
+✅ Validasi input agar tidak terjadi error  
 
 ---
 
