@@ -19,9 +19,21 @@ Proyek ini dibuat sebagai latihan dasar pemrograman menggunakan **Python** dan *
 
 ---
 
-## 🚀 Cara Menjalankan
+🚀 Cara Menjalankan
 
-1. **Clone repositori ini**
-   ```bash
-   git clone https://github.com/milesmana/kalkulator-python-sederhana.git
-   cd kalkulator-python-sederhana
+1. Clone repositori ini
+
+~ git clone https://github.com/milesmana/kalkulator-python-sederhana.git
+cd kalkulator-python-sederhana
+
+
+2. Jalankan program
+
+~ python kalkulator.py
+
+📝 Catatan
+
+💡 Program ini dapat dijalankan menggunakan Python versi 3.x ke atas.
+Pastikan Python sudah terinstal di sistem Anda dengan perintah:
+
+~ python --version
